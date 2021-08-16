@@ -43,9 +43,22 @@
         </executions>
       </plugin>
     </plugins>
-  </build>  
+  </build>
+
+  <repositories>
+    <repository>
+      <id>tilab</id>
+      <url>https://jade.tilab.com/maven/</url>
+    </repository>
+  </repositories>
   
   <dependencies>
+      <dependency>
+        <groupId>com.tilab.jade</groupId>
+        <artifactId>jade</artifactId>
+        <version>4.5.0</version>
+      </dependency>
+
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
